@@ -18,7 +18,7 @@ f_price = int(input("How much will you be spending on food? $ "))
 print("\n\n"); 
 
 print("-----Travel Expenses-----")
-print("Location: $", travel_des)
+print("Location: ", travel_des)
 print("Initial Budget: $", budget_price)
 print("Fuel: $", gas_price)
 print("Accomodation: $", acom_price)
