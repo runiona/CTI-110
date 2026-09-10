@@ -15,18 +15,20 @@ acom_price = int(input("How much will you be spending on accomodation? $ "))
 
 f_price = int(input("How much will you be spending on food? $ "))
 
-print("-----Travel Expenses-----")
-print("Initial Budget: ", budget_price)
+print("\n\n"); 
 
-print("Fuel: ", gas_price)
-print("Accomodation: ", acom_price)
-print("Food: ", f_price)
+print("-----Travel Expenses-----")
+print("Location: $", travel_des)
+print("Initial Budget: $", budget_price)
+print("Fuel: $", gas_price)
+print("Accomodation: $", acom_price)
+print("Food: $", f_price)
 
 answer = gas_price + acom_price + f_price
 
 print("\n\n"); 
-print(gas_price, "+", acom_price, "+", f_price, "= Total price:", answer)
+print(gas_price, "+", acom_price, "+", f_price, "= Total price: $", answer)
 
 answer2 = budget_price - answer
 
-print(budget_price, "-", answer, "= Total subtracted from budget:", answer2)
+print(budget_price, "-", answer, "= Total subtracted from budget: $", answer2)
