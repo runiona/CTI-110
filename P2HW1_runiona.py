@@ -1,6 +1,7 @@
 # CTI 110
 # A Runion
 # P2HW1
+# Using f string to oragnize travel expenses
 
 print("Hello!")
 # use int when using a variable for math
