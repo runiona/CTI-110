@@ -15,11 +15,11 @@ grades = [module1, module2, module3, module4, module5, module6]
 lowest_ = min(grades)
 highest_ = max(grades)
 sum_ = sum(grades)
-average_
+average_ = sum_ / len(grades)
 
 print("----------Results----------")
 print(f"{"Lowest grade: ":<20} {lowest_:<20}")
 print(f"{"Highest grade: ":<20} {highest_:<20}")
 print(f"{"Sum of grades: ":<20} {sum_:<20}")
-print
+print(f"{"Average of grades: ":<20} {average_:<20,.2f}")
 print("----------------------------")
