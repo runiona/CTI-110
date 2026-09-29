@@ -1,5 +1,5 @@
-# Your Name
-# Date
+# Aiden Runion
+# 9/29/2026
 # M3BONUS - Let's Make a Deal
 # A short text adventure. The player picks a door and wins a prize.
 
@@ -41,7 +41,7 @@ def door_3():
     print("Buzz in when you know the answer!")
     print("$10 per second left when you buzz in.")
     print("1.5 multiplier if you have more than 40 seconds left!")
-    time_used = int(input("How many seconds out of 60 do you need to get the answer? "))
+    time_used = float(input("How many seconds out of 60 do you need to get the answer? "))
 
     time_left = max_time - time_used
     # BONUS: If you have more than 0 seconds left you get 1.5 payout
