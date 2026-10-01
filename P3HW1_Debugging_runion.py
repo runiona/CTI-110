@@ -31,7 +31,7 @@ print("----------Results----------")
 print(f"{"Lowest grade: ":<20} {low_:<20}")
 print(f"{"Highest grade: ":<20} {high_:<20}")
 print(f"{"Sum of grades: ":<20} {sum_:<20}")
-print(f"{"Average of grades: ":<20} {avg_:<20,.2f}")
+print(f"{"Average: ":<20} {avg_:<20,.2f}")
 print("----------------------------")
 
 if avg_ >= 90:
@@ -44,8 +44,6 @@ elif avg_ >= 60:
         print('Your grade is: D')
 else:
         print('Your grade is: F')
-       
-         # TO DO: finish this
 
 
 
