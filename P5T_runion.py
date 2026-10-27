@@ -10,8 +10,6 @@
 def drink_potions(hp_missing):
     # input: hp_missing -> max healing possible
     # output: prints potions used
-    hp_missing = int(input("Enter HP missing: "))
-
     large = hp_missing // 25
     hp_missing = hp_missing % 25
     if large == 1:
@@ -27,7 +25,7 @@ def drink_potions(hp_missing):
         print(small, "Small Potions")
 
     print("Still missing:", hp_missing, "HP")
-    
+
 def main():
     hp_missing = int(input("Enter HP missing: "))
     drink_potions(hp_missing)
