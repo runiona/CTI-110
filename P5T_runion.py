@@ -7,7 +7,9 @@
 # It is the same // and % pattern as your P3LAB, with two potions:
 #   Large Potion heals 25 HP. Small Potion heals 5 HP.
 # Run it now (it works). In P5T you turn it into a function.
-def main():
+def drink_potions(hp_missing):
+    # input: hp_missing -> max healing possible
+    # output: prints potions used
     hp_missing = int(input("Enter HP missing: "))
 
     large = hp_missing // 25
@@ -25,4 +27,9 @@ def main():
         print(small, "Small Potions")
 
     print("Still missing:", hp_missing, "HP")
+    
+def main():
+    hp_missing = int(input("Enter HP missing: "))
+    drink_potions(hp_missing)
+
 main()
